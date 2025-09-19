@@ -20,7 +20,7 @@ Meu objetivo é sempre aprender novas tecnologias e aplicá-las de forma prátic
 
 ## 🚀 Habilidades
 
-<img src="https://github.com/malu-fnb/Portif-lio---Jogo-da-Forca/blob/main/imagem/portifolio01.png" alt="Habilidades" width="700"/>
+<img src="https://github.com/malu-fnb/Portif-lio---Jogo-da-Forca/blob/main/imagem/poertifolio02.png" alt="Habilidades" width="700"/>
 
 Algumas ferramentas e linguagens que utilizo no meu dia a dia:  
 - Python, C, Java, JavaScript, CSS, HTML  
@@ -36,7 +36,7 @@ Algumas ferramentas e linguagens que utilizo no meu dia a dia:
 E pra deixar tudo mais legal, no final do portifólio você pode se divertir com o **Jogo da Forca** 🎲  
 Tente adivinhar a palavra antes que seja tarde!  
 
-<img src= "https://github.com/malu-fnb/Portif-lio---Jogo-da-Forca/blob/main/imagem/poertifolio02.png" alt="Jogo da Forca" width="700"/>
+<img src="https://github.com/malu-fnb/Portif-lio---Jogo-da-Forca/blob/main/imagem/portifolio01.png" alt="Jogo da Forca" width="700"/>
 
 ---
 
