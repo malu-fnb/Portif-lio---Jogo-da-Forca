@@ -1,0 +1,204 @@
+body, html {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #FDF6E3;
+  color: #4b3a2e;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.main-container {
+  max-width: 800px;
+  width: 100%;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.nav-buttons button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 8px;
+  background-color: #a69b83;
+  color: #4b3a2e;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-buttons button.active,
+.nav-buttons button:hover {
+  background-color: #4b3a2e;
+  color: #fff;
+}
+
+.portfolio h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.portfolio p {
+  margin-bottom: 20px;
+}
+
+.contacts a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #4b3a2e;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.contacts a:hover {
+  color: #92573c;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill {
+  background-color: #a69b83;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* --- Hangman Styles --- */
+.hangman-game {
+  background: rgba(255,255,255,0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.hangman-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hangman-restart {
+  padding: 8px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(166,155,131,0.5);
+  color: #4b3a2e;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hangman-restart:hover {
+  background-color: #a69b83;
+  color: #fff;
+}
+
+.hangman-figure {
+  margin: 20px auto;
+}
+
+.hangman-part {
+  stroke: #4b3a2e;
+  stroke-width: 4;
+  fill: none;
+}
+
+.hangman-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(4px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.hangman-newgame {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #92573c;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hangman-newgame:hover {
+  background: #4b3a2e;
+}
+
+.word-display {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin: 15px 0;
+}
+
+.word-letter {
+  width: 40px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(166,155,131,0.3);
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.letter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+
+.letter-buttons button {
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  background: rgba(166,155,131,0.5);
+  color: #4b3a2e;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.letter-buttons button:hover:enabled {
+  background: #92573c;
+  color: white;
+}
+
+.letter-buttons button:disabled {
+  background: #ccc;
+  color: #888;
+  cursor: not-allowed;
+}
+
+.attempts {
+  margin-top: 10px;
+  color: #92573c;
+}
