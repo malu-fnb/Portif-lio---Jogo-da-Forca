@@ -1,5 +1,7 @@
 # 📌 Portifólio de Malu
 
+Aqui você poderá acessar meu site! https://portifolio-jogo-da-forca.vercel.app/
+
 Olá, meu nome é **Malu Bezerra** e eu apresento a você o meu portifólio!  
 Aqui você encontra um pouco da minha trajetória na área de **Tecnologia e Ciência da Computação**, incluindo projetos, habilidades e ferramentas que domino.  
 
